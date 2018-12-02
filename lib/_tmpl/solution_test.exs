@@ -3,7 +3,7 @@ defmodule SolutionTmplTest do
 
   test "example 1" do
     input = ""
-    result = Solution.run(input)
+    result = SolutionTmpl.run(input)
     assert result.distance == 3
   end
 end
