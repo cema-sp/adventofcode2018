@@ -47,7 +47,7 @@ defmodule Solution1 do
   def one_pass_freq(str) do
     str
     |> String.split("\n", trim: true)
-    |> Enum.reduce(0, &(next_freq(&2, &1)))
+    |> Enum.reduce(0, &next_freq(&2, &1))
   end
 
   def calibration_freq(str) do
