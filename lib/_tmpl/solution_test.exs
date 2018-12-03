@@ -4,6 +4,6 @@ defmodule SolutionTmplTest do
   test "example 1" do
     input = ""
     result = SolutionTmpl.run(input)
-    assert result.distance == 3
+    assert result == 3
   end
 end
